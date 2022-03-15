@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraflix v1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32c77cd24a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="https://www.alura.com.br/" target="_blank">
+            <img src="img/alura-logo.svg" alt="alura-logo" id="alura-logo">
+        </a>
+        <img src="img/logo-imersao-aluraflix.svg" alt="" id="aluraflix-logo">
+    </nav>
+
+    <div class="container">
+        <h1>AluraFlix</h1>
+
+    </div>
+
+    <form class="addForm">
+        <p class="subtitle">URL da imagem:</p>
+        <input type="text" placeholder="URL da imagem" id="url" autocomplete="off"><br>
+        <p class="subtitle">Nome do Filme:</p>
+        <input type="text" placeholder="Nome do Filme" id="title" autocomplete="off"><br>
+        <input type="submit" value="Adicionar Filme" id="submit">
+    </form>
+
+    <div class="imagens" id="result">
+
+        <div style="text-align: center; margin: 0; padding: 0;">
+            <div style="position: relative;" class="banner">
+                <p>Yesterday</p>
+                <a href="https://www.youtube.com/watch?v=Yyk9N40uIFs" target="_blank">
+                    <img src="https://br.web.img2.acsta.net/pictures/19/07/23/20/57/4907896.jpg" id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="position: relative;" class="banner">
+                <p>Arrival</p>
+                <a href="https://www.youtube.com/watch?v=tFMo3UJ4B4g" target="_blank">
+                    <img src="https://1.bp.blogspot.com/-ImZPRqLsluE/WFK156_6pNI/AAAAAAAAYBY/0lEhNRF5wfQdLfr6hpT57_Jt2eBrE9H5wCLcB/s1600/arrival-kartoun-desert.jpg"
+                        alt="" id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="position: relative;" class="banner">
+                <p>Homem-Aranha</p>
+                <a href="https://www.youtube.com/watch?v=2x-2iYxgMFU" target="_blank">
+                    <img src="https://www.partagenatal.com.br/media/Homem-aranha-capa-1.jpg" alt="" id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="position: relative;" class="banner">
+                <p>Alladin</p>
+                <a href="https://www.youtube.com/watch?v=PRyOvcOhtms" target="_blank">
+                    <img src="https://img.elo7.com.br/product/original/2747CBC/big-poster-filme-aladdin-2019-lo01-tamanho-90x60-cm-nerd.jpg"
+                        alt="" id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="position: relative;" class="banner">
+                <p>Vingadores Ultimato</p>
+
+                <a href="https://www.youtube.com/watch?v=g6ng8iy-l0U" target="_blank">
+                    <img src="https://a-static.mlcdn.com.br/1500x1500/placa-decorativa-poster-60x40-filmes-series-os-vingadores-coolforman/imperialoutletbr/bd-pdc-6040-xv573/a7581652c85e124424fc9c9eb1cab4c1.jpg"
+                        alt="" id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="position: relative;" class="banner">
+                <p>Django Livre</p>
+                <a href="https://www.youtube.com/watch?v=tivv135aGbc" target="_blank">
+                    <img src="https://fhox.com.br/wp-content/uploads/2017/11/81c2c457691753-5a059d944bf23.jpg" alt=""
+                        id="poster">
+                </a>
+                <i class="far fa-trash-alt delete"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!--    <div class="imagens" id="result"></div> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
